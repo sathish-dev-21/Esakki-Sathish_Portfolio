@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esakki Sathish - Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <h1>Esakki Sathish</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h2 class="home-greeting">Hello, I'm Esakki Sathish</h2>
+                <p class="home-title">Frontend Developer</p>
+                <p class="home-description">
+                    I'm a passionate frontend developer specializing in creating beautiful, responsive, and user-friendly web experiences. 
+                    With a strong foundation in HTML, CSS, and JavaScript, I craft engaging digital solutions that bring ideas to life.
+                </p>
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a 2nd-year B.E. ECE student with a passion for web development. 
+                        While pursuing my engineering degree, I've dedicated myself to mastering the fundamentals of web development.
+                    </p>
+                    <p>
+                        Currently, I focus on <strong>HTML, CSS, and JavaScript</strong> to build responsive and interactive websites. 
+                        My goal is to expand my skills to backend development and become a proficient <strong>Full-Stack Developer</strong>.
+                    </p>
+                    <p>
+                        I believe in clean code, best practices, and continuous learning. 
+                        Every project is an opportunity to improve my skills and deliver value to users.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Semantic HTML5, Forms, Accessibility, Structure</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Flexbox, Grid, Responsive Design, Animations</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM Manipulation, Events, ES6+, Interactive Features</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-preview">
+                        <iframe src="https://kumarphotography.vercel.app/" title="Project Preview" loading="lazy"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project 1: Video Editor Portfolio</h3>
+                        <p class="project-description">
+                            Kumar Photography is a creative video editing studio focused on transforming moments into engaging visual stories. We create cinematic edits, social media content, and professional event videos with attention to detail. Our goal is to bring every story to life through creative visuals and impactful editing.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sathish-dev-21/kumarphotography-" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                            <a href="https://kumarphotography.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 
+                <article class="project-card">
+                    <div class="project-preview">
+                        <iframe src="https://example.com" title="Project Preview" loading="lazy"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project 2: Your Project Name</h3>
+                        <p class="project-description">
+                            Brief description of your second project. Explain what the project does and the problem it solves.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                 Project 3 
+                <article class="project-card">
+                    <div class="project-preview">
+                        <iframe src="https://example.com" title="Project Preview" loading="lazy"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project 3: Your Project Name</h3>
+                        <p class="project-description">
+                            Brief description of your third project. Explain what the project does and the problem it solves.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+            -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Inquiry Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Client Project Inquiry</h2>
+            <p class="contact-subtitle">Interested in working with me? Fill out the form below and I'll get back to you soon.</p>
+            
+            <form id="inquiryForm" class="inquiry-form" novalidate action="https://formsubmit.co/esakkisathish92@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Client Inquiry from Portfolio">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display: none;">
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                    <span class="error-message" id="fullNameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company/Organization</label>
+                    <input type="text" id="company" name="company">
+                </div>
+
+                <div class="form-group">
+                    <label for="projectType">Project Type *</label>
+                    <select id="projectType" name="projectType" required>
+                        <option value="">Select a project type</option>
+                        <option value="website">Website</option>
+                        <option value="ecommerce">E-Commerce</option>
+                        <option value="landing-page">Landing Page</option>
+                        <option value="web-app">Web Application</option>
+                        <option value="redesign">Redesign</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-message" id="projectTypeError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="services">Services Required *</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="frontend" name="services" value="Frontend Development">
+                            <label for="frontend">Frontend Development</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ui-ux" name="services" value="UI/UX Design">
+                            <label for="ui-ux">UI/UX Design</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="responsive" name="services" value="Responsive Design">
+                            <label for="responsive">Responsive Design</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="maintenance" name="services" value="Maintenance & Support">
+                            <label for="maintenance">Maintenance & Support</label>
+                        </div>
+                    </div>
+                    <span class="error-message" id="servicesError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Project Description *</label>
+                    <textarea id="description" name="description" rows="5" required></textarea>
+                    <span class="error-message" id="descriptionError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">Budget Range *</label>
+                    <select id="budget" name="budget" required>
+                        <option value="">Select budget range</option>
+                        <option value="under-1000">Under ₹1,000</option>
+                        <option value="1000-5000">₹1,000 - ₹5,000</option>
+                        <option value="5000-10000">₹5,000 - ₹10,000</option>
+                        <option value="10000-25000">₹10,000 - ₹25,000</option>
+                        <option value="25000-plus">₹25,000+</option>
+                    </select>
+                    <span class="error-message" id="budgetError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="deadline">Expected Completion Date *</label>
+                    <input type="date" id="deadline" name="deadline" required>
+                    <span class="error-message" id="deadlineError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="source">How did you find me? *</label>
+                    <select id="source" name="source" required>
+                        <option value="">Select an option</option>
+                        <option value="google">Google Search</option>
+                        <option value="social-media">Social Media</option>
+                        <option value="portfolio">Portfolio Website</option>
+                        <option value="referral">Referral</option>
+                        <option value="github">GitHub</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-message" id="sourceError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">Send Inquiry</button>
+                <p class="form-message" id="formMessage"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Esakki Sathish. All rights reserved.</p>
+                <div class="footer-links">
+                    <a id="footerEmailLink" href="mailto:esakkisathish92@gmail.com" class="footer-link">Email</a>
+                    <a href="https://github.com/sathish-dev-21" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/esakki-sathish-1959a741b" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
