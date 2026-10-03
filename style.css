@@ -445,6 +445,61 @@ section {
 }
 
 /* ===================================
+   Certificates Section
+   =================================== */
+
+.certificates {
+    background-color: var(--bg-color);
+}
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-2xl);
+}
+
+.certificate-card {
+    overflow: hidden;
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.certificate-card > img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background-color: var(--bg-alt);
+}
+
+.certificate-info {
+    padding: var(--spacing-2xl);
+}
+
+.certificate-info h3 {
+    margin-bottom: var(--spacing-md);
+    color: var(--text-color);
+    font-size: var(--font-size-lg);
+}
+
+.certificate-issuer,
+.certificate-date {
+    color: var(--text-light);
+    font-size: var(--font-size-sm);
+}
+
+.certificate-date {
+    margin-bottom: var(--spacing-lg);
+}
+
+.certificate-info .btn {
+    display: inline-block;
+    text-align: center;
+}
+
+/* ===================================
    Contact/Client Inquiry Section
    =================================== */
 
